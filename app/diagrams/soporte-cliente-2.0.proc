@@ -8,7 +8,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_h3nGRU42Ee-gQLcCBOUVyw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_h3nGRk42Ee-gQLcCBOUVyw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:XORGateway" xmi:id="_kiTqkE45Ee-gQLcCBOUVyw" name="Gateway3" outgoing="_k0x6oE45Ee-gQLcCBOUVyw" incoming="_y0xYsE47Ee-gQLcCBOUVyw">
+        <elements xmi:type="process:XORGateway" xmi:id="_kiTqkE45Ee-gQLcCBOUVyw" name="Puente1" outgoing="_k0x6oE45Ee-gQLcCBOUVyw" incoming="_y0xYsE47Ee-gQLcCBOUVyw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_kCkakk45Ee-gQLcCBOUVyw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_kCkakU45Ee-gQLcCBOUVyw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_kCkak045Ee-gQLcCBOUVyw" name="" content="" returnTypeFixed="true"/>
@@ -69,7 +69,7 @@
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_yi8o7E47Ee-gQLcCBOUVyw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:XORGateway" xmi:id="_8xrXoE5EEe-ObNHUDpRDOA" name="Gateway4" outgoing="__T-VQE5EEe-ObNHUDpRDOA" incoming="_8df3YE5EEe-ObNHUDpRDOA">
+        <elements xmi:type="process:XORGateway" xmi:id="_8xrXoE5EEe-ObNHUDpRDOA" name="Puente4" outgoing="__T-VQE5EEe-ObNHUDpRDOA" incoming="_8df3YE5EEe-ObNHUDpRDOA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_8dfQUk5EEe-ObNHUDpRDOA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_8dfQUU5EEe-ObNHUDpRDOA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_8dfQU05EEe-ObNHUDpRDOA" name="" content="" returnTypeFixed="true"/>
@@ -1202,7 +1202,7 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_k0x6oE45Ee-gQLcCBOUVyw" target="_h3nGWU42Ee-gQLcCBOUVyw" source="_kiTqkE45Ee-gQLcCBOUVyw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_k0x6oU45Ee-gQLcCBOUVyw"/>
-        <condition xmi:type="expression:Expression" xmi:id="_k0x6ok45Ee-gQLcCBOUVyw" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_k0x6ok45Ee-gQLcCBOUVyw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_yHElO047Ee-gQLcCBOUVyw" name="Si" target="_yi8o4E47Ee-gQLcCBOUVyw" source="_h3nGbk42Ee-gQLcCBOUVyw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_yHElPE47Ee-gQLcCBOUVyw"/>
